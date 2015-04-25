@@ -13,6 +13,13 @@ flag = bool(random.randint(0, 1))
 
 print "Now the fate of the flag is decided randomly "+ str(flag)
 
+print "Some Boolean operations"
+print "using not operater"
+print flag, not flag
+print "And the output of \" flag is not (not flag) \""
+print flag is not (not flag)
+print "And the output of \" not flag is flag \""
+print not flag is flag
 print "Also let me try to see what happens if I apply arithmetics on boolean"
 print "multiply flag with flag"
 print flag*flag
@@ -25,3 +32,5 @@ print flag+flag
 
 print "Subtract flag with flag"
 print flag-flag
+
+print bool(0+0j)
