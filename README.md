@@ -6,3 +6,4 @@ stored in the folder of the same name.
 1. Datatype
 	1. Boolean
 	2. Integer
+
