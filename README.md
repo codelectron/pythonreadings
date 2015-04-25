@@ -4,4 +4,4 @@ The readings are seperated in to topics and code for each topic is
 stored in the folder of the same name.
 
 1. Datatype
-2. 
+2. Strings
