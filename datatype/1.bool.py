@@ -12,3 +12,16 @@ print "The variable flag now holds " + str(flag)
 flag = bool(random.randint(0, 1))
 
 print "Now the fate of the flag is decided randomly "+ str(flag)
+
+print "Also let me try to see what happens if I apply arithmetics on boolean"
+print "multiply flag with flag"
+print flag*flag
+
+print "divide flag with flag"
+print flag*flag
+
+print "Add flag with flag"
+print flag+flag
+
+print "Subtract flag with flag"
+print flag-flag
