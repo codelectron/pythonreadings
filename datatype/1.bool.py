@@ -33,4 +33,13 @@ print flag+flag
 print "Subtract flag with flag"
 print flag-flag
 
+print bool("")
+print bool("  ")
+print bool("test")
+print bool('')
+print bool(' ')
+print bool(None)
+print bool(0)
+print bool(10)
+print bool(-10)
 print bool(0+0j)
