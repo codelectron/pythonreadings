@@ -7,4 +7,6 @@ c = a + b
 print c
 print c.real
 print c.imag
+# What is abs? see https://www.youtube.com/watch?v=yvzyC4VBpUU
+print abs(c)
 
