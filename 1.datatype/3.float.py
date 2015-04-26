@@ -23,3 +23,7 @@ print type(piprecise)
 piprecise  = float(piprecise)
 print piprecise
 print type(piprecise)
+
+piRound = round(math.pi,5)
+print piRound
+print type(piRound)
