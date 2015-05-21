@@ -1,17 +1,15 @@
 #!/usr/bin/python
 
-sum  = 0
-def fibonacci(a, b):
-	global sum
-	print a
-	if a%2 == 0:
-		sum += a
-	if b < 4000000:
-		return fibonacci(b, a+b)
-	else:
-		return 0
 
+target=4000000
+a=0
+b=1
+sum = 0
+while b < target :
+        x = a
+        a = b
+        b = x + b
+        if b%2 == 0:
+                sum += b
 
-if __name__ == "__main__":
-	print fibonacci(1,2)
-	print "sum is ",sum
+print sum
